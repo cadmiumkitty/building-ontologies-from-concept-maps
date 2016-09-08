@@ -1,0 +1,24 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix product: <http://www.example.com/ontologies/product/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+product:Loans a owl:Class ;
+    rdfs:subClassOf product:ProductLine .
+
+product:Payments a owl:Class ;
+    rdfs:subClassOf product:CashManagement .
+
+product:Receivables a owl:Class ;
+    rdfs:subClassOf product:CashManagement .
+
+product:TradeFinance a owl:Class ;
+    rdfs:subClassOf product:ProductLine .
+
+product:CashManagement a owl:Class ;
+    rdfs:subClassOf product:ProductLine .
+
+product:ProductLine a owl:Class .
+

@@ -1,0 +1,5 @@
+Loans	is a	Product Line
+Trade Finance	is a	Product Line
+Cash Management	is a	Product Line
+Receivables	is a	Cash Management
+Payments	is a	Cash Management
